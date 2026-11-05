@@ -1,0 +1,26 @@
+# Game files and local test directory (never commit proprietary assets/binaries)
+/contents/
+
+# Build directories & intermediate compiler outputs
+/build/
+/out/
+*.obj
+*.o
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+
+# Runtime logs
+*.log
+log.txt
+
+# IDE & OS metadata
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
